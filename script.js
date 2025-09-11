@@ -17,3 +17,23 @@ const getCurrentYear = () => {
 };
 // Appel de la fonction getCurrentYear()
 getCurrentYear();
+
+// Création de la variable activeLight
+let activeLight = 0;
+
+// Déclaration de la fonction changeLight qui va permettre aux feux de signalisation de changer de couleur
+const changeLight = () => {
+  circles[activeLight].className = "circle";
+  // Incrémentation de la variable activeLight
+  console.log(activeLight);
+  activeLight++;
+
+  // Condition if
+  if (activeLight > 2) {
+    activeLight = 0;
+  }
+
+  const currentLight = circles[activeLight];
+
+  currentLight.classList.add(currentLight.getAttribute("color"));
+};
