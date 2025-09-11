@@ -6,7 +6,7 @@ Création du projet : Feux de signalisation en HTML5, CSS3 et JavaScript.
 
 ## Démonstration
 
-Lien vers le projet :
+Lien vers le projet : https://aperbet56.github.io/feux_de_signalisation/
 
 ## Projet développé avec
 
