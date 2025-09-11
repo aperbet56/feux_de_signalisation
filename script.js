@@ -25,8 +25,8 @@ let activeLight = 0;
 const changeLight = () => {
   circles[activeLight].className = "circle";
   // Incrémentation de la variable activeLight
-  console.log(activeLight);
   activeLight++;
+  //console.log(activeLight);
 
   // Condition if
   if (activeLight > 2) {
