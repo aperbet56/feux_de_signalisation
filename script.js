@@ -37,3 +37,9 @@ const changeLight = () => {
 
   currentLight.classList.add(currentLight.getAttribute("color"));
 };
+
+// La méthode setInterval() permet d'exécuter la fonction changeLight() toutes les 1.5s.
+setInterval(() => {
+  //Appel de la fonction changeLight()
+  changeLight();
+}, 1500);
